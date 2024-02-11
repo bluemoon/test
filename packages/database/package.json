@@ -1,0 +1,23 @@
+{
+	"name": "database",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./index.ts",
+	"types": "./index.ts",
+	"scripts": {
+		"lint": "eslint *.ts"
+	},
+	"devDependencies": {
+		"@types/uuid": "^9.0.8",
+		"eslint": "^8.50.0",
+		"tsconfig": "workspace:*",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"@mikro-orm/core": "^6.1.1",
+		"@mikro-orm/postgresql": "^6.1.1",
+		"@mikro-orm/reflection": "^6.1.1",
+		"reflect-metadata": "^0.2.1",
+		"uuid": "^9.0.1"
+	}
+}
